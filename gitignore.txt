@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+.venv/
+
+# IBT telemetry files (can be large, personal data)
+*.ibt
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local test builds
+fss_b0*.html
+fss_b1*.html
+!fss_b110_complete.html
+fss_*ROLLBACK*
+fullsend_telemetry.html
